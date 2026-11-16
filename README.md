@@ -23,7 +23,7 @@ The main focus of this project is to develop a machine learning model using Scik
 |F1 Score       (1)    | 0.8520                   | 0.9412                   |0.9430              |
 |Support Samples  (1)  |84148                     |84148                     |84148               |
 
-# Feature Importances Plot
+# Feature Importances Plot of the best model (XGBOOST Classifier)
 
 <img width="1000" height="500" alt="newplot(1)" src="https://github.com/user-attachments/assets/cb77ca1b-afa5-4614-9e82-24aafd59919b" />
 
