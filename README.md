@@ -2,7 +2,7 @@
 The main focus of this project is to develop a machine learning model using Scikit learn to predict the customers who are likely to leave the business, and deploy the model using streamlit. The project includes Data Cleaning, EDA, model development using Logistic Regression, Random Forest and XGBOOST-Classifier, and developing streamlit App to deploy the best model amongst the three.
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python**
 - **Pandas, NumPy** (data cleaning & processing)
@@ -17,7 +17,8 @@ The main focus of this project is to develop a machine learning model using Scik
 # Exploratory Data Analysis (EDA)
 
 The dataset was explored using the python visualization libraries such as: Seaborn, Matplotlib.pyplot, PlotlyExpress. 
-Key visualizations included:
+
+**Key visualizations included:**
 
 -  Count Plot showing **overall churn rate**
 -  Histograms distributions of numerical features by churn.
@@ -26,23 +27,31 @@ Key visualizations included:
 -  Correlation heatmap for multi-colinearity of numerical features.
 -  Correlation barbplot of numerical features to 'Churn'
 
-Key findings from the categorical features visuals: 
+**Key findings from the categorical features visuals:** 
 
 - The dataset consisted of 56% samples of churners(1) as compared to the 44% Non-churners(0). ( This dataset imbalanced was handled during training of models).
 - The Monthly Contract customers were found to be the most Churners in the Contract Length category: 90% Churners against 10% Non-Churners.
 - The Female Gender consisted of 65% Churners against 35% Non-Churners.
 
-Key findings from the numerical features visuals: 
+**Key findings from the numerical features visuals:** 
 
-- The Age feature revealed that: customers in the age range 50 to 65 appeared to churn the most.
-- For Support Calls feature, the customers who made more than 4 support calls churned the most.
-- The Total Spend of less  than $500 is associated with the churners.
-- Payment Delay past 20 days 
+- The Age feature revealed that: customers in the age range 50 to 65 appeared to churn at 84%.
+- For Support Calls feature, the customers who made more than 4 support calls also churned at 84%.
+- The Total Spend of less  than $500 is mostly associated with the churners, with churning rate of 90%.
+- Payment Delay past 20 days is associated with 87% churners.
+- Last Interaction days greater than 17 consists of 64% churning customers.
 
+**key findings of the numerical features correlations to the churn***
 
+- There was no multi-colinearity detected amongst the numerical features.
+- The features most correlated to churn were:
+- Support Calls (with correlation p = 0.5163),
+- Total Spend,  p = -0.3697,
+- Payment Delay, p = 0.3298.
+- The rest of the numerical featured had correlations less than 0.2.
 
+# Machine learning Modelling.
 
-# Results
 ### Table of Metrics
 
 |Metric                |Logistic Regression       | Random Forest Classifier | XGBOOST Classifier |
