@@ -11,6 +11,36 @@ The main focus of this project is to develop a machine learning model using Scik
 - **Streamlit, Visual Studio Code** ( Web App development and deployment)
 - **Jupyter Notebook**
 
+# Data Cleaning
+- The only data cleaning done on the dataset was to drop one row of missing values on row 199295 of the dataset.
+  
+# Exploratory Data Analysis (EDA)
+
+The dataset was explored using the python visualization libraries such as: Seaborn, Matplotlib.pyplot, PlotlyExpress. 
+Key visualizations included:
+
+-  Count Plot showing **overall churn rate**
+-  Histograms distributions of numerical features by churn.
+-  Count plots distributions of categorical features by churn.
+-  Box and Whisker plots of numerical features by churn.
+-  Correlation heatmap for multi-colinearity of numerical features.
+-  Correlation barbplot of numerical features to 'Churn'
+
+Key findings from the categorical features visuals: 
+
+- The dataset consisted of 56% samples of churners(1) as compared to the 44% Non-churners(0). ( This dataset imbalanced was handled during training of models).
+- The Monthly Contract customers were found to be the most Churners in the Contract Length category: 90% Churners against 10% Non-Churners.
+- The Female Gender consisted of 65% Churners against 35% Non-Churners.
+
+Key findings from the numerical features visuals: 
+
+- The Age feature revealed that: customers in the age range 50 to 65 appeared to churn the most.
+- For Support Calls feature, the customers who made more than 4 support calls churned the most.
+- The Total Spend of less  than $500 is associated with the churners.
+- Payment Delay past 20 days 
+
+
+
 
 # Results
 ### Table of Metrics
