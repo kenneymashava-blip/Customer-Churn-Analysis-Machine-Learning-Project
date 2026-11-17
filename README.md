@@ -48,7 +48,7 @@ The dataset was explored using the python visualization libraries such as: Seabo
 - Support Calls (with correlation p = 0.5163),
 - Total Spend,  p = -0.3697,
 - Payment Delay, p = 0.3298.
-- The rest of the numerical featured had correlations less than 0.2.
+- The rest of the numerical features had correlations less than 0.2.
 
 # Machine learning Modelling.
 
