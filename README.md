@@ -78,8 +78,10 @@ The three machine learning models: Logistic Regression, Random Forest Classifier
 ***
 ## Feature Importances Plot of the best model (XGBOOST Classifier)
 <img width="1000" height="500" alt="newplot(1)" src="https://github.com/user-attachments/assets/cb77ca1b-afa5-4614-9e82-24aafd59919b" />
+
 ***
 ### Key takeaways from feature importances
+
 - The top 6 most important features in predicting Churn, in escending order are:
 - **Number of Supporting Calls; Monthly(Contract length); Female(Gender); Total Spend; Payment Delay;  and Age.**
 - The remainining feartures does not contribute significantly to Churn prediction.
