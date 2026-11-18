@@ -65,7 +65,7 @@ The three machine learning models: Logistic Regression, Random Forest Classifier
 - GridSearchCV fitted with training data to find the best model pipeline with the best hyper-parameter combinations.
 - The metric to be maximized by the GridSearchCV was the **accuracy score.**
 - Class imbalance in the training dataset was handled by managing the **class_weights** parameter in each of the trained model pipelines.
-- The best model was found to be the **XGBOOST Classifier pipeline.**
+- **The best model was found to be the XGBOOST Classifier pipeline.**
 ***
 ## Trained models table of Metrics 
 |Metric                |Logistic Regression       | Random Forest Classifier | XGBOOST Classifier |
