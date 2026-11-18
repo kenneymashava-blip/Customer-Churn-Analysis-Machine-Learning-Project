@@ -68,7 +68,6 @@ The three machine learning models: Logistic Regression, Random Forest Classifier
 - The best model was found to be the **XGBOOST Classifier pipeline.**
 ***
 ## Trained models table of Metrics 
-
 |Metric                |Logistic Regression       | Random Forest Classifier | XGBOOST Classifier |
 | :------------------  | :----------------------- | :------------------------|:-------------------|
 |Accuracy Score (1 & 0)| 0.8417                   | 0.9313                   |0.9333              |
@@ -78,6 +77,5 @@ The three machine learning models: Logistic Regression, Random Forest Classifier
 |Support Samples  (1)  |84148                     |84148                     |84148               |
 ***
 ## Feature Importances Plot of the best model (XGBOOST Classifier)
-***
 <img width="1000" height="500" alt="newplot(1)" src="https://github.com/user-attachments/assets/cb77ca1b-afa5-4614-9e82-24aafd59919b" />
 
