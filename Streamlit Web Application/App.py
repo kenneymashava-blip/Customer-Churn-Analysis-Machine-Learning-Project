@@ -1,10 +1,6 @@
-# Gender->'Female':1, Male:0
-# Subscription Type-> 'Basic':0, 'Standard':1, 'Premium':2
-# Contract Length -> 'Monthly':0,'Quarterly':1,'Annual':2
-# Model is saved as model.plk
+
 
 from tkinter import Image
-
 import streamlit as st
 import pandas as pd
 import joblib
