@@ -7,7 +7,7 @@ The main focus of this project is to develop a machine learning model using Scik
 - **Pandas, NumPy** (data cleaning & processing)
 - **Seaborn, Matplotlib, Plotly Express** (visualizations)
 - **Scikit-learn** (modeling)
-- **Streamlit, Visual Studio Code** ( Web App development and deployment)
+- **Streamlit, Joblib, Visual Studio Code** ( Web App development and deployment)
 - **Jupyter Notebook**
 
 # Data Cleaning
@@ -86,4 +86,10 @@ The three machine learning models: Logistic Regression, Random Forest Classifier
 - **Number of Supporting Calls; Monthly(Contract length); Female(Gender); Total Spend; Payment Delay;  and Age.**
 - The remainining feartures does not contribute significantly to Churn prediction.
 - Suprisingly the Male(Gender) feature contribute zero importance in Churn prediction.
-
+***
+# Streamlit Web-App Development.
+- The best model (XGBOOST Classifier Pipeline) saved using joblib.pkl;
+- together with the feature importances dataframe saved as csv file;
+- were used in the Streamlit Web-App development.
+- The streamlit Web-App  python script and all other resources used can be found under the Streamlit Folder.
+- Below is the vedeo clip of the Streamlit App.
