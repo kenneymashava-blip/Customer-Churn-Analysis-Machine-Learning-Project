@@ -44,14 +44,14 @@ col_1,col_2 = st.columns(2)
 st.sidebar.header('Customer Details')
 gender = st.sidebar.selectbox('Gender', ['Female', 'Male'])
 subscription_type = st.sidebar.selectbox('Subscription Type', ['Basic', 'Standard', 'Premium'])
-contract_length = st.sidebar.selectbox('Contract Length', ['Monthly', 'Quarterly', 'Annual'])  
+contract_length = st.sidebar.selectbox('Contract Length', ['Monthly', 'Quarterly', 'Annual'],value='Annual')  
 
 age = st.sidebar.number_input('Age', min_value=18, max_value=65, value=30)
 tenure = st.sidebar.number_input('Tenure (in months)', min_value=1, max_value=60, value=12) 
 usage_frequency = st.sidebar.number_input('Usage Frequency (in the last month)', min_value=1, max_value=30, value=5)
 support_calls = st.sidebar.number_input('Support Calls(in the last month)', min_value=0, max_value=10, value=1)
-payment_delay = st.sidebar.number_input('Payment Delay (days in the last month)', min_value=0, max_value=30, value=0)
-total_spend = st.sidebar.number_input('Total Spend ', min_value=100, max_value=1000, value=300)
+payment_delay = st.sidebar.number_input('Payment Delay (days in the last month)', min_value=0, max_value=30, value=15)
+total_spend = st.sidebar.number_input('Total Spend ', min_value=100, max_value=1000, value=500)
 last_interaction = st.sidebar.number_input('Last Interaction (days ago)', min_value=1, max_value=30, value=15)
 
 
