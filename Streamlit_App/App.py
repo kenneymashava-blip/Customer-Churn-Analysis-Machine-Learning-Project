@@ -1,12 +1,11 @@
 
 
-from tkinter import Image
+from PIL import Image
 import streamlit as st
 import pandas as pd
 import joblib
 import numpy as np
 import plotly.express as px
-from PIL import Image
 
 st.set_page_config(layout='wide')
 
@@ -18,7 +17,7 @@ picture = Image.open('customer_churn_image.jpeg').resize((1000,300))
 st.image(picture,width= 'stretch')
 
 # Sidebar image
-customer = Image.open('customer.JPG').resize((300,200))
+customer = Image.open('customer.jpg').resize((300,200))
 st.sidebar.image(customer,width= 'stretch')
 
 # APP Welcome question.
