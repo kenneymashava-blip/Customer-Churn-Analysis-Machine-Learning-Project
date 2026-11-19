@@ -14,7 +14,7 @@ st.set_page_config(layout='wide')
 BASE_DIR = Path(__file__).resolve().parent
 model_path = BASE_DIR / "XGBOOST_Churn_Model.pkl"
 churn_image_path = BASE_DIR / 'customer_churn_image.jpeg'
-customer_image_path = BASE_DIR / 'customer.jpg'
+customer_image_path = BASE_DIR / 'Customer.jpg'
 
 model = joblib.load(model_path)
 
