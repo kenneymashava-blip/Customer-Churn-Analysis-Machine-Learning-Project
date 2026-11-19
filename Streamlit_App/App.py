@@ -1,3 +1,4 @@
+# required python libraries
 
 from pathlib import Path
 from PIL import Image
@@ -9,22 +10,23 @@ import plotly.express as px
 
 st.set_page_config(layout='wide')
 
-# This code resolves to the directory containing App.py
+# This code ensures streamlit runs from the Streamlit_App directory containing App.py in Github
 
 BASE_DIR = Path(__file__).resolve().parent
 model_path = BASE_DIR / "XGBOOST_Churn_Model.pkl"
 churn_image_path = BASE_DIR / 'customer_churn_image.jpeg'
 customer_image_path = BASE_DIR / 'Customer.jpg'
 
+# Load the XGBOOST model from the Streamlit_App directory.
 model = joblib.load(model_path)
 
 st.title('Welcome to Churn Prediction App')
 
-# Welcome image
+# load the Welcome image from Streamlit_App directory .
 picture = Image.open(churn_image_path).resize((1000,300))
 st.image(picture,width= 'stretch')
 
-# Sidebar image
+# load the sidebar image from Streamlit_App directory 
 customer = Image.open(customer_image_path).resize((300,200))
 st.sidebar.image(customer,width= 'stretch')
 
@@ -88,7 +90,9 @@ with col_1:
             'Last Interaction': last_interaction
         },index=[1])
 
-        
+            
+        # predict the Churn and its probability
+            
         prediction = model.predict(input_data)
         probability = model.predict_proba(input_data) 
 
