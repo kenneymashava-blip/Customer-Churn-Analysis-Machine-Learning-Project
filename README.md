@@ -85,7 +85,7 @@ The three machine learning models: Logistic Regression, Random Forest Classifier
 ***
 ### Key takeaways from feature importances
 
-- The top 6 most important features in predicting Churn, in escending order are:
+- The top 6 most important features in predicting Churn, in descending order are:
 - **Number of Supporting Calls; Monthly(Contract length); Female(Gender); Total Spend; Payment Delay;  and Age.**
 - The remaining feartures does not contribute significantly to Churn prediction.
 - Suprisingly the Male(Gender) feature contribute zero importance in Churn prediction.
