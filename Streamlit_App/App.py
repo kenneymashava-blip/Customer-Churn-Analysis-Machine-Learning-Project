@@ -44,7 +44,7 @@ col_1,col_2 = st.columns(2)
 st.sidebar.header('Customer Details')
 gender = st.sidebar.selectbox('Gender', ['Female', 'Male'])
 subscription_type = st.sidebar.selectbox('Subscription Type', ['Basic', 'Standard', 'Premium'])
-contract_length = st.sidebar.selectbox('Contract Length', ['Monthly', 'Quarterly', 'Annual'],value='Annual')  
+contract_length = st.sidebar.selectbox('Contract Length', ['Monthly', 'Quarterly', 'Annual'],index=2)  
 
 age = st.sidebar.number_input('Age', min_value=18, max_value=65, value=30)
 tenure = st.sidebar.number_input('Tenure (in months)', min_value=1, max_value=60, value=12) 
