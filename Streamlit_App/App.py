@@ -9,15 +9,23 @@ import plotly.express as px
 
 st.set_page_config(layout='wide')
 
-model = joblib.load('XGBOOST_Churn_Model.pkl')
+# This code resolves to the directory containing App.py
+
+BASE_DIR = Path(__file__).resolve().parent
+model_path = BASE_DIR / "XGBOOST_Churn_Model.pkl"
+churn_image_path = BASE_DIR / 'customer_churn_image.jpeg'
+customer_image_path = BASE_DIR / 'customer.jpg'
+
+model = joblib.load(model_path)
+
 st.title('Welcome to Churn Prediction App')
 
 # Welcome image
-picture = Image.open('customer_churn_image.jpeg').resize((1000,300))
+picture = Image.open(churn_image_path).resize((1000,300))
 st.image(picture,width= 'stretch')
 
 # Sidebar image
-customer = Image.open('customer.jpg').resize((300,200))
+customer = Image.open(customer_image_path).resize((300,200))
 st.sidebar.image(customer,width= 'stretch')
 
 # APP Welcome question.
