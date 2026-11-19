@@ -56,7 +56,7 @@ last_interaction = st.sidebar.number_input('Last Interaction (days ago)', min_va
 # This code block displays the feature importances chart in the second column of the layout.
 
 with col_2:
-        df = pd.read_csv("impotances_dataframe.csv")
+        df = pd.read_csv(BASE_DIR / "impotances_dataframe.csv"))
 
         fig = px.bar(x = df.iloc[0], y = df.columns, title = 'Features Importances plot',
         width = 900, height = 500,
