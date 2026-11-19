@@ -92,7 +92,7 @@ The three machine learning models: Logistic Regression, Random Forest Classifier
 - together with the feature importances dataframe saved as csv file;
 - were used in the Streamlit Web-App development.
 - **The streamlit Web-App  python script and all other resources used can be found under the Streamlit Folder.**
-- Below is the vedeo clip of the Streamlit App.
 
+**Click the link below to launch the Streamlit App**
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://customer-churn-analysis-machine-learning-project-p64ajwiykxu4q.streamlit.app/)
 
