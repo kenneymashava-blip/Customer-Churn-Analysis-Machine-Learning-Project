@@ -32,16 +32,21 @@ The dataset was explored using the python visualization libraries such as: Seabo
 **Key findings from the categorical features visuals:** 
 
 - The dataset consisted of 56% samples of churners(1) as compared to the 44% Non-churners(0). ( This dataset imbalanced was handled during training of models).
-- The Monthly Contract customers were found to be the most Churners in the Contract Length category: 90% Churners against 10% Non-Churners.
-- The Female Gender consisted of 65% Churners against 35% Non-Churners.
+- Monthly contract customers contribute 22% to the business; with the percentage churn of 20% and only 2% non churn.
+- Both Annual and Quartely contract customers contribute 39% each to the business, with 18% percentage churn and 21% non churn.
+- The Female gender customers contribute approximatley 45% to the business, with 29% percentage churn and 16% non churn.
+- The Male gender customers contribute approximatley 56% to the business, with 27% percentage churn and 29% non churn.
+- The percentage churn by Subscription Type appears to be approximatley equivalent across all the subscription types.
+- Basic and Standard subcriptions churn at 19% while Premium churn at 18%.
+- Standard and Premium subsciptions have 15% non churn customers while Basic have 14%.
 ***
 **Key findings from the numerical features visuals:** 
-
-- The Age feature revealed that: customers in the age range 50 to 65 appeared to churn at 84%.
-- For Support Calls feature, the customers who made more than 4 support calls also churned at 84%.
-- The Total Spend of less  than $500 is mostly associated with the churners, with churning rate of 90%.
-- Payment Delay past 20 days is associated with 87% churners.
-- Last Interaction days greater than 17 consists of 64% churning customers.
+- Customers over the Age of 50 contribute 23% to the business, with 19% ending up Churning and 4% not churning.
+- Customers who make 4 or more support calls a month contribute 45% to the business, with 38% ending up churning while 7% remain with the business.
+- Customers with a Total Spend less than $500 contribute 29% to the business, with 26% ending up churning and only 3% remaining with the business.
+- Customers who delay payments by more 20 days or more, contribute 26% to the business, with 23% churners and only 3% non churners.
+- Customers who do not interact with the business for 17 or more days in a month contribute to 38% to the business,
+- with 24% ending up churning while 14% remain with the business.
 ***
 **key findings of the numerical features correlations to the churn***
 
