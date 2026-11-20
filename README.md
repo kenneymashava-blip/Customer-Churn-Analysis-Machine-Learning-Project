@@ -111,4 +111,5 @@ The three machine learning models: Logistic Regression, Random Forest Classifier
 - Target customers with less than 24 months ternure and less than 10 usage frequency per month.
 
 👨‍🎓 About Me
+
 I'm a Bsc Applied Mathematics and Statistics graduate with passion for data science and analytics. This project reflects my ability to apply technical machine learning skills to real-world datasets. I am actively looking for roles in Data Analysis or Data Science.
