@@ -93,7 +93,7 @@ The three machine learning models: Logistic Regression, Random Forest Classifier
 - The top 6 most important features in predicting Churn, in descending order are:
 - **Number of Supporting Calls; Monthly(Contract length); Female(Gender); Total Spend; Payment Delay;  and Age.**
 - The remaining feartures does not contribute significantly to Churn prediction.
-- Suprisingly the Male(Gender) feature contribute zero importance in Churn prediction.
+- Suprisingly the Male(Gender) contribute zero feature importance in Churn prediction.
 ***
 # Streamlit Web-App Development.
 - The best model (XGBOOST Classifier Pipeline) saved using joblib.pkl;
@@ -103,4 +103,10 @@ The three machine learning models: Logistic Regression, Random Forest Classifier
 
 **Click on the link to launch the Streamlit App 👉👉👉**
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://customer-churn-analysis-machine-learning-project-p64ajwiykxu4q.streamlit.app/)
+***
+# Business recomendations
+- Encourage Quarterly or Annual contracts instead of Monthly.
+- Resolve customers enquiries and maintaning support calls below 5. 
+- Provide incentives to customers over the age of 50 and total spend of less than $500.
+- Target customers with less than 24 months ternure and less than 10 usage frequency per month.
 
