@@ -4,7 +4,7 @@
 # Customer-Churn-Analysis-Machine-Learning-Project
 
 ## Project Overview
-The main focus of this project is to develop a machine learning model using Scikit learn to predict the customers who are likely to leave the business, and deploy the model using streamlit. The project includes Data Cleaning, EDA, model development using Logistic Regression, Random Forest and XGBOOST-Classifier, and developing streamlit App to deploy the best model amongst the three.
+The main focus of this project is to develop a machine learning model using Scikit learn to predict the customers who are likely to leave the business, and deploy the model using streamlit. The project includes data cleaning, exploratory data analysis (EDA), model development using Logistic Regression, Random Forest and XGBOOST-Classifier, and developing streamlit web application and deploy it for production.
 
 ## Tech Stack
 
