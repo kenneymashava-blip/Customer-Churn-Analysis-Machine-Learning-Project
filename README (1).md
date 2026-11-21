@@ -165,6 +165,6 @@ Three machine learning models—Logistic Regression, Random Forest Classifier, a
 - Provide incentives to customers over 50 years old with total spending below $500.
 - Target customers with tenure of less than 24 months and usage frequency of less than 10 times per month.
 
-## About Me
+## About Me 👨‍🎓
 
 I am a BSc Applied Mathematics and Statistics graduate with a passion for data science and analytics. This project reflects my ability to apply technical machine learning skills to real-world datasets.
