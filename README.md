@@ -1,5 +1,4 @@
 **Click the link to launch the Streamlit app 👉👉👉**
-
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://customer-churn-analysis-machine-learning-project-p64ajwiykxu4q.streamlit.app/)
 
 # Customer Churn Analysis Machine Learning Project
@@ -153,7 +152,6 @@ Three machine learning models—Logistic Regression, Random Forest Classifier, a
 - The Streamlit Python script and all related resources can be found in the `Streamlit_App` folder.
 
 **Click the link to launch the Streamlit app 👉👉👉**
-
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://customer-churn-analysis-machine-learning-project-p64ajwiykxu4q.streamlit.app/)
 
 ***
